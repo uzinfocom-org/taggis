@@ -3,7 +3,7 @@ import { promises } from 'fs'
 import Page from '@components/page'
 import Entry from '@components/entry'
 
-const Keyboards = ({ items }) => {
+const Main = ({ items }) => {
   return (
     <Page description="Social Networks and Links of Uzinfocom.">
       <article>
@@ -35,4 +35,4 @@ export const getStaticProps = async () => {
   }
 }
 
-export default Keyboards
+export default Main
