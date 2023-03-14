@@ -13,7 +13,25 @@
     {
       "title": "Telegram",
       "image": "/socials/Telegram.png",
-      "url": "https://www.apple.com/shop/product/MQ052J/A/magic-keyboard-with-numeric-keypad-japanese",
+      "url": "https://t.me/uzinfocomofficial",
+      "key": "social"
+    },
+    {
+      "title": "Instagram",
+      "image": "/socials/Instagram.png",
+      "url": "https://www.instagram.com/uzinfocom_official",
+      "key": "social"
+    },
+    {
+      "title": "Facebook",
+      "image": "/socials/Facebook.png",
+      "url": "https://www.facebook.com/uzinfocom.uz",
+      "key": "social"
+    },
+    {
+      "title": "YouTube",
+      "image": "/socials/YouTube.png",
+      "url": "https://youtube.com/@uzinfocom_official",
       "key": "social"
     }
   ]
