@@ -16,7 +16,6 @@ const Keyboards = ({ items }) => {
               title={entry.title}
               image={entry.image}
               href={entry.url}
-              description={entry.description}
             />
           )
         })}

@@ -2,7 +2,7 @@ import Page from '@components/page'
 
 const Contact = () => {
   return (
-    <Page title="Bo'glanish" footer={false} description="Aloqaga chiqing.">
+    <Page title="Contact" footer={false} description="Keep in touch with us.">
       <article>
         <p>Contact with us at...</p>
 
