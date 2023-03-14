@@ -1,0 +1,58 @@
+{
+  "schema": [
+    {
+      "name": "60%",
+      "color": "blue"
+    },
+    {
+      "name": "65%",
+      "color": "red"
+    },
+    {
+      "name": "TKL",
+      "color": "blue-gray"
+    },
+    {
+      "name": "FULL",
+      "color": "green"
+
+    }
+  ],
+  "data": [
+    {
+      "title": "Apple Magic Keyboard JIS",
+      "description": "Yuri'ga tegishli membrana va yapon sxemasidagi klaviatura",
+      "image": "https://lab.hendigi.com/wp-content/uploads/2021/12/th_DSCF5109.jpg",
+      "url": "https://www.apple.com/shop/product/MQ052J/A/magic-keyboard-with-numeric-keypad-japanese",
+      "key": "FULL"
+    },
+    {
+      "title": "Keychron K8",
+      "description": "Yetimdasturchi'ga tegishli qizil switchlik va praktik ergonomik klaviatura",
+      "image": "https://ksr-ugc.imgix.net/assets/029/351/094/781f403bfd495fe330bf4be18b4203e0_original.png?ixlib=rb-4.0.2&crop=faces&w=1552&h=873&fit=crop&v=1591341792&auto=format&frame=1&q=92&s=5befcde073edfb72d1c69a8d55631976",
+      "url": "https://www.keychron.com/products/keychron-k8-tenkeyless-wireless-mechanical-keyboard",
+      "key": "TKL"
+    },
+    {
+      "title": "ErgoDox EZ",
+      "description": "Shakhzod'ga tegishli jigarrang switchlik va dvorak moslashuvchan klaviatura",
+      "image": "https://cdn.shopify.com/s/files/1/1152/3264/t/25/assets/neat-ergodox-ez-hero-poster.jpg?v=640722201241920101572515781",
+      "url": "https://ergodox-ez.com/",
+      "key": "65%"
+    },
+    {
+      "title": "Sharkoon PureWriter",
+      "description": "Crystalnyan'ga tegishli ko'k switchlik va yengil ergonomik klaviatura",
+      "image": "https://www.techtesters.eu/pic/SHARKOONPUREWRITER/x3.JPG",
+      "url": "https://en.sharkoon.com/product/PWTKLRGB",
+      "key": "TKL"
+    },
+    {
+      "title": "Sharkoon PureWriter",
+      "description": "Phoenixifier'ga tegishli qizil switchlik va yengil ergonomik klaviatura",
+      "image": "https://preview.redd.it/built-a-lapboard-for-my-purewriter-tkl-rgb-v0-zbz2l7b4uey91.jpeg?width=3840&format=pjpg&auto=webp&s=d40fe016a374658655a02a253c46b0e6eebd857a",
+      "url": "https://en.sharkoon.com/product/PWTKLRGB",
+      "key": "TKL"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Ignore generated JS files
+.next
+node_modules
+out
+
+# Ignore Data jsons
+data/blog.json
+socials.json
+data/useful.json
