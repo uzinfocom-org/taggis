@@ -4,9 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next -p 3003",
-    "rss": "node lib/rss",
     "new": "node lib/db",
-    "build": "pnpm rss && next build",
+    "build": "next build",
     "lint": "next lint",
     "fmt": "prettier --check \"{**/*,*}.{js,mjs,ts,jsx,tsx,md,json}\" --loglevel warn",
     "lint:fix": "pnpm lint --fix",
