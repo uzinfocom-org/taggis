@@ -15,11 +15,17 @@ const Contact = () => {
           </a>
         </blockquote>
 
-        <p>...follow our telegram channel.</p>
+        <p>...or you can reach one of our PR staff.</p>
 
         <blockquote>
-          <a href="https://t.me/s/uzinfocomofficial" className="reset">
-            @uzinfocomofficial
+          <a href="https://t.me/@MiyassarovT" className="reset">
+            Timur Miyassarov - @MiyassarovT
+          </a>
+        </blockquote>
+
+        <blockquote>
+          <a href="https://t.me/DavlatbekNasirov" className="reset">
+            Davlatbek Nasirov - @DavlatbekNasirov
           </a>
         </blockquote>
       </article>
