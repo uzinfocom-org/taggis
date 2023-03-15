@@ -11,21 +11,21 @@ const Projects = () => {
         <Entry
           title="Xinux Uzbekistan"
           description="Linux ga oid O'zbek hamjamiyati"
-          image="https://oss.uzinfocom.uz/favicons/ogs/xinux.png"
+          image="/projects/xinux.png"
           href="https://xinux.uz/"
         />
 
         <Entry
           title="Korrektor"
           description="O'zbek tiliga bag'ishlangan lingvistika loyihasi"
-          image="https://oss.uzinfocom.uz/favicons/ogs/korrektor.png"
+          image="/projects/korrektor.png"
           href="https://korrektor.uz/"
         />
 
         <Entry
           title="Osmon"
           description="Boshlang'ich dasturchilar uchun yaratilgan dasturlash tili"
-          image="https://oss.uzinfocom.uz/favicons/ogs/osmon.png"
+          image="/projects/osmon.png"
           href="https://osmon.dev"
         />
       </article>
