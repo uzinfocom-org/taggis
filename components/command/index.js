@@ -135,7 +135,7 @@ const CommandMenu = memo(() => {
             <div className={styles.top}>
               <CommandInput
                 placeholder={
-                  Items === ThemeItems ? 'Theme...' : 'Enter command name...'
+                  Items === ThemeItems ? 'Theme...' : 'Enter section name...'
                 }
               />
             </div>
