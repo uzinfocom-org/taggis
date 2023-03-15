@@ -19,12 +19,14 @@ import {
   Sparkles,
   Document,
   ArrowRight,
+  Book,
 } from '@components/icons'
 import styles from './command.module.css'
 import headerStyles from '@components/header/header.module.css'
 import { useTheme } from 'next-themes'
 import tinykeys from '@lib/tinykeys'
 import Bookmark from '@components/icons/bookmark'
+import Pin from '@components/icons/pin'
 
 const CommandData = React.createContext({})
 const useCommandData = () => React.useContext(CommandData)
@@ -235,6 +237,12 @@ const DefaultItems = () => {
       <Group title="Pages">
         <Item value="Main" icon={<ArrowRight />} keybind="g h" />
         <Item value="Contact" icon={<Bookmark />} keybind="g c" />
+        <Item
+          value="Website"
+          icon={<Pin />}
+          keybind="g /"
+          callback={() => window.open('https://uzinfocom.uz', '_blank')}
+        />
       </Group>
     </>
   )
