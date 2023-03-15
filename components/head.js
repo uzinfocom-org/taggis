@@ -1,7 +1,7 @@
 import NextHead from 'next/head'
 import { useTheme } from 'next-themes'
 
-const defaultOgImage = 'https://oss.uzinfocom.uz/og.png'
+const defaultOgImage = 'https://link.floss.uz/og.png'
 
 const Head = ({
   title = 'Uzinfocom Links',
