@@ -65,9 +65,6 @@ const CommandMenu = memo(() => {
       'g c': () => router.push('/contact'),
       // Collections
       'g p': () => router.push('/projects'),
-
-      // Social
-      'g /': () => () => window.open('https://t.me/uzinfocom_oss', '_blank'),
     }
   }, [router, setPages])
 
@@ -124,7 +121,7 @@ const CommandMenu = memo(() => {
       >
         <DialogContent
           className={styles['dialog-content']}
-          aria-label="Sayt boshqarmasi"
+          aria-label="Dialog Content"
         >
           <Command
             {...commandProps}
@@ -137,8 +134,8 @@ const CommandMenu = memo(() => {
               <CommandInput
                 placeholder={
                   Items === ThemeItems
-                    ? 'Mavzu kiriting...'
-                    : 'Buyruqni kiriting yoki qidiring...'
+                    ? 'Theme...'
+                    : 'Enter command name...'
                 }
               />
             </div>
