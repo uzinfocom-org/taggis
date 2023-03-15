@@ -3,7 +3,10 @@ import Entry from '@components/entry'
 
 const Projects = () => {
   return (
-    <Page title="Projects" description="Projects made by Uzinfocom's Developer.">
+    <Page
+      title="Projects"
+      description="Projects made by Uzinfocom's Developer."
+    >
       <article>
         <Entry
           title="Xinux Uzbekistan"
