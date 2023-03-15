@@ -89,7 +89,12 @@
   transition: opacity 300ms ease-in-out, transform 300ms ease-in-out;
 }
 
-.link:hover div,
+/**
+  Set this if you want to display
+  text only on hover
+  .link div, => .link:hover div,
+ */
+.link div,
 .link:focus div,
 .link.active div {
   transform: none;
