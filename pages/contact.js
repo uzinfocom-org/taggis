@@ -15,7 +15,7 @@ const Contact = () => {
           </a>
         </blockquote>
 
-        <p>...or you can reach one of our PR staff.</p>
+        <p>...or you can reach our PR staffs.</p>
 
         <blockquote>
           <a href="https://t.me/@MiyassarovT" className="reset">
