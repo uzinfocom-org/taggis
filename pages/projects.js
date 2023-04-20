@@ -21,6 +21,7 @@ const Projects = () => {
           image="/projects/korrektor.png"
           href="https://korrektor.uz/"
         />
+      </article>
     </Page>
   )
 }
