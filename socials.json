@@ -33,6 +33,12 @@
       "image": "/socials/YouTube.png",
       "url": "https://youtube.com/@uzinfocom_official",
       "key": "social"
+    },
+    {
+      "title": "LinkedIn",
+      "image": "/socials/Linkedin.png",
+      "url": "https://www.linkedin.com/company/uzinfocom/",
+      "key": "social"
     }
   ]
 }
