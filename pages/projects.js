@@ -21,14 +21,6 @@ const Projects = () => {
           image="/projects/korrektor.png"
           href="https://korrektor.uz/"
         />
-
-        <Entry
-          title="Osmon"
-          description="Programming language for beginners"
-          image="/projects/osmon.png"
-          href="https://osmon.dev"
-        />
-      </article>
     </Page>
   )
 }
