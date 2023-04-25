@@ -1,19 +1,10 @@
 /** @type {import('next').NextConfig} */
+import * as social from "./social.config.mjs"
+
 const nextConfig = {
   swcMinify: true,
   async redirects() {
-    return [
-      // {
-      //   source: '/discord',
-      //   destination: 'https://discord.gg/JkXFQpScFj',
-      //   permanent: true,
-      // },
-      // {
-      //   source: '/telegram',
-      //   destination: 'https://t.me/uzinfocom_oss',
-      //   permanent: true,
-      // },
-    ]
+    return social.links
   },
   output: 'standalone',
 }
