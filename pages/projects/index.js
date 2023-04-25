@@ -9,6 +9,14 @@ const Projects = () => {
     >
       <article>
         <Entry
+            title="MyID"
+            description="A tool for simple and secure facial identification"
+            image="/projects/myid.png"
+            href="/projects/myid/"
+            internal={true}
+        />
+
+        <Entry
           title="Xinux Uzbekistan"
           description="Linux community & Linux distribution for Uzbekistan"
           image="/projects/xinux.png"
