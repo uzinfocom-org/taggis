@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-import socials from "./socials.json" assert { type: "json" }
+import socials from './socials.json' assert { type: 'json' }
 
 const nextConfig = {
   swcMinify: true,
