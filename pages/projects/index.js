@@ -9,11 +9,11 @@ const Projects = () => {
     >
       <article>
         <Entry
-            title="MyID"
-            description="A tool for simple and secure facial identification"
-            image="/projects/myid.png"
-            href="/projects/myid/"
-            internal={true}
+          title="MyID"
+          description="A tool for simple and secure facial identification"
+          image="/projects/myid.png"
+          href="/projects/myid/"
+          internal={true}
         />
 
         <Entry
@@ -33,6 +33,5 @@ const Projects = () => {
     </Page>
   )
 }
-
 
 export default Projects
