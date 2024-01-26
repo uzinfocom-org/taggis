@@ -20,7 +20,7 @@
     "@reach/dialog": "^0.17.0",
     "classnames": "^2.3.1",
     "cmdk": "^0.0.4",
-    "graphql": "^16.6.0",
+    "graphql": "^16.8.1",
     "intersection-observer": "^0.12.2",
     "isomorphic-unfetch": "^3.1.0",
     "lodash.debounce": "^4.0.8",
