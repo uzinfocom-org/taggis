@@ -11,6 +11,12 @@
   ],
   "data": [
     {
+      "title": "Website",
+      "image": "/socials/Website.png",
+      "url": "https://uzinfocom.uz",
+      "key": "social"
+    },
+    {
       "title": "Telegram",
       "image": "/socials/Telegram.png",
       "url": "https://t.me/uzinfocomofficial",
