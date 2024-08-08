@@ -8,7 +8,7 @@ const Main = ({ items }) => {
     <Page description="Social Networks and Links of Uzinfocom.">
       <article>
         <h1 className="hero" align="center">
-          Social Networks of Uzinfocom
+          Connect with Us!
         </h1>
 
         {items.map((entry) => {
