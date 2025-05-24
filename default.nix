@@ -80,9 +80,9 @@ in
     };
 
     meta = with pkgs.lib; {
-      homepage = "https://xinux.uz";
+      homepage = "https://link.uzinfocom.uz";
       mainProgram = "${manifest.name}-start";
-      description = "Website of Xinux";
+      description = "Social pages of Uzinfocom";
       license = with licenses; [cc-by-40];
       platforms = with platforms; linux ++ darwin;
       maintainers = with maintainers; [orzklv];
