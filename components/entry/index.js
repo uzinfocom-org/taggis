@@ -26,11 +26,7 @@ const Entry = ({ title, description, image, href, position, internal }) => {
           backgroundImage: image
             ? !inView
               ? 'none'
-              : `url('${
-                  image.startsWith('/')
-                    ? '/' + encodeURIComponent(image.slice(1))
-                    : image
-                }')`
+              : `url('${image}')`
             : 'none',
           backgroundPosition: position ? position : 'center',
         }}
