@@ -20,8 +20,8 @@ const Error = ({ status }) => {
               <p>Life is too short to get 404 errors. </p>
 
               <footer>
-                <Link external href="https://t.me/yurionblog">
-                  — Yuri Katsuki, <cite>Uzinfocom Open Source Advocate</cite>
+                <Link external href="https://github.com/orzklv">
+                  — Orzklv, <cite>Uzinfocom Open Source</cite>
                 </Link>
               </footer>
             </blockquote>

@@ -30,11 +30,7 @@
         devShells.default = import ./shell.nix {inherit pkgs;};
 
         # Release package
-        packages = rec {
-          default = ssg;
-          ssr = pkgs.callPackage ./default-ssr.nix {inherit pkgs;};
-          ssg = pkgs.callPackage ./default-ssg.nix {inherit pkgs;};
-        };
+        packages.default = pkgs.callPackage ./default.nix {inherit pkgs;};
       }
     )
     // {

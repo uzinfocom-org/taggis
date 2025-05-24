@@ -11,3 +11,5 @@ yalc.lock
 .idea
 yarn-error.log
 .env.local
+.direnv
+result
