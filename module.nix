@@ -182,7 +182,7 @@ in {
       dataDir = mkOption {
         type = types.str;
         default = "/var/lib/uzinfocom/taggis";
-        description = lib.mdDoc ''
+        description = ''
           The path where Taggis Website server keeps data and possibly logs.
         '';
       };
