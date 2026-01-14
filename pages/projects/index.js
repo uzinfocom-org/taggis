@@ -22,13 +22,6 @@ const Projects = () => {
           image="/projects/xinux.png"
           href="https://xinux.uz/"
         />
-
-        <Entry
-          title="Korrektor"
-          description="Uzbek linguist assistant for all"
-          image="/projects/korrektor.png"
-          href="https://korrektor.uz/"
-        />
       </article>
     </Page>
   )
