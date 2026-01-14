@@ -36,6 +36,11 @@ in
       pkgs.typescript
     ];
 
+    # Runtime dependencies
+    buildInputs = with pkgs; [
+      vips
+    ];
+
     buildPhase = ''
       # Set to standalone mode and properties
       sed -i 's/output: "export",/output: "standalone",/' ./next.config.mjs
@@ -76,7 +81,7 @@ in
       pname = manifest.name;
       version = manifest.version;
       src = source;
-      hash = "sha256-4V9flPEP1XuFLJgVmjBjIyMWu4Fi4QpgKCD/9UCYeiY=";
+      hash = "sha256-r1XfQBSiX+bTClc8RI14GE+DuO6dPWeOetjayjwxP24=";
     };
 
     meta = with pkgs.lib; {
