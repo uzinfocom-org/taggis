@@ -84,7 +84,7 @@ in
       version = manifest.version;
       src = source;
       fetcherVersion = 3;
-      hash = "sha256-twJOjjgBZ5BhAHc2w0Eht/h1BfKVfhTMxdKOlygME+s=";
+      hash = "sha256-DNJ/5suYPJ6OwaeBunijTGgp33ocTfUrboBeQGfr6aQ=";
     };
 
     meta = with pkgs.lib; {
