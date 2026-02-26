@@ -30,10 +30,12 @@ in
 
     src = source;
 
-    nativeBuildInputs = [
-      pkgs.nodejs_22
-      pkgs.pnpm.configHook
-      pkgs.typescript
+    nativeBuildInputs = with pkgs; [
+      nodejs_22
+      pnpmConfigHook
+      pnpm
+      typescript
+      vips
     ];
 
     # Runtime dependencies
@@ -77,11 +79,12 @@ in
       cp -r ${exec} $out/bin/${manifest.name}-start
     '';
 
-    pnpmDeps = pkgs.pnpm.fetchDeps {
+    pnpmDeps = pkgs.fetchPnpmDeps {
       pname = manifest.name;
       version = manifest.version;
       src = source;
-      hash = "sha256-U9+J6fHQK4zmeDM34MCbQuRTFDF5h0eFIEMoNzWIefE=";
+      fetcherVersion = 3;
+      hash = "sha256-twJOjjgBZ5BhAHc2w0Eht/h1BfKVfhTMxdKOlygME+s=";
     };
 
     meta = with pkgs.lib; {
